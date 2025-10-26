@@ -1,82 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MaxPC Device Management</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 1em;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #005a9c;
-    }
-    section {
-      margin-bottom: 2em;
-    }
-    .contact {
-      background-color: #e6f2ff;
-      padding: 1em;
-      border-radius: 8px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxPC - Simplify Your IT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Base Styles for Mobile-First Design */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; /* Light background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Header/Hero Section */
+        .hero {
+            background-color: #007bff; /* Primary MaxPC Blue */
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 1.8em;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+        }
+
+        .hero h2 {
+            font-size: 1.2em;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        /* Section Styling */
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .section h3 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .feature-list li {
+            margin-bottom: 15px;
+        }
+
+        .feature-list strong {
+            display: block;
+            color: #333;
+            margin-bottom: 3px;
+            font-weight: 700;
+        }
+        
+        /* Pricing Callout */
+        .pricing-callout {
+            text-align: center;
+            background-color: #28a745; /* Green for affordability/savings */
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            font-weight: 700;
+        }
+        
+        .pricing-callout span {
+            display: block;
+            font-size: 1.8em;
+            margin-top: 5px;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .contact h3 {
+            color: #007bff;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .contact-item {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            font-size: 1.1em;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        
+        .contact-item:hover {
+            background-color: #dae0e5;
+        }
+
+        .contact-item.phone {
+            background-color: #ffc107; /* Yellow for a prominent call button */
+            color: #333;
+        }
+    </style>
 </head>
 <body>
 
-  <h1>Struggling with Computer Issues?</h1>
-  <p><strong>Simplify Your IT Management with MaxPC</strong></p>
+    <div class="hero">
+        <h1>Tired of Computer Issues?</h1>
+        <h2>Simplify Your IT Management with **MaxPC.**</h2>
+    </div>
 
-  <section>
-    <h2>🔧 Proactive Device Management</h2>
-    <ul>
-      <li><strong>Proactive Maintenance & Vulnerability Scanning:</strong> Regular scans and fixes to reduce security risks.</li>
-      <li><strong>Automated Maintenance:</strong> Software updates and optimizations handled automatically.</li>
-      <li><strong>Endpoint Analytics:</strong> Insights into device performance and security.</li>
-      <li><strong>Hardware Monitoring:</strong> Monitor disk, CPU, and RAM to prevent issues.</li>
-    </ul>
-  </section>
+    <div class="container">
 
-  <section>
-    <h2>🔐 Advanced Security with SentinelOne & Microsoft</h2>
-    <ul>
-      <li><strong>Advanced Threat Detection:</strong> Real-time threat response using intelligent algorithms.</li>
-      <li><strong>Malware Protection:</strong> Blocks ransomware, malware, and other threats.</li>
-      <li><strong>Behavioral Analysis:</strong> Detects suspicious activity and mitigates risks.</li>
-      <li><strong>Incident Response:</strong> Swift identification, containment, and remediation.</li>
-    </ul>
-  </section>
+        <div class="section">
+            <h3 id="proactive-management">🔧 Proactive Device Management</h3>
+            <ul class="feature-list">
+                <li>
+                    <strong>Proactive Maintenance & Vulnerability Scanning:</strong> Regular scans and fixes to proactively reduce security risks.
+                </li>
+                <li>
+                    <strong>Automated Maintenance:</strong> Software updates and optimizations handled automatically, ensuring peak performance.
+                </li>
+                <li>
+                    <strong>Endpoint Analytics:</strong> Actionable insights into device performance and security.
+                </li>
+                <li>
+                    <strong>Hardware Monitoring:</strong> Monitor disk, CPU, and RAM to prevent issues.
+                </li>
+            </ul>
+        </div>
 
-  <section>
-    <h2>⚙️ Device Management Features</h2>
-    <ul>
-      <li><strong>OS Updates:</strong> Keep devices secure and current.</li>
-      <li><strong>Device Configurations:</strong> Customize settings to match business needs.</li>
-      <li><strong>3rd Party Applications:</strong> Manage apps for smooth performance.</li>
-      <li><strong>Device Compliance:</strong> Ensure devices meet security standards.</li>
-    </ul>
-  </section>
+        <div class="section">
+            <h3 id="advanced-security">🔐 Advanced Security with SentinelOne & Microsoft</h3>
+            <ul class="feature-list">
+                <li>
+                    <strong>Advanced Threat Detection:</strong> Real-time threat response using intelligent algorithms.
+                </li>
+                <li>
+                    <strong>Comprehensive Malware Protection:</strong> Blocks ransomware, malware, and other threats.
+                </li>
+                <li>
+                    <strong>Behavioral Analysis:</strong> Detects suspicious activity to instantly mitigate risks.
+                </li>
+                <li>
+                    <strong>Incident Response:</strong> Swift identification, containment, and remediation.
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h3 id="device-management">⚙️ Device Management Features</h3>
+            <ul class="feature-list">
+                <li>
+                    <strong>OS and Security Patch Management:</strong> Keep devices secure and current.
+                </li>
+                <li>
+                    <strong>Device Configuration & Standardization:</strong> Customize settings to match business needs.
+                </li>
+                <li>
+                    <strong>3rd Party Application Management:</strong> Manage apps for smooth performance and security.
+                </li>
+                <li>
+                    <strong>Device Compliance:</strong> Ensure devices meet security standards.
+                </li>
+            </ul>
+        </div>
 
-  <section>
-    <h2>💰 Affordable & Hassle-Free</h2>
-    <ul>
-      <li><strong>Peace of Mind:</strong> Professional management at a fraction of IT staff cost.</li>
-      <li><strong>Cost Comparison:</strong> Just 66¢ per device per day.</li>
-      <li><strong>Avoid Lost Productivity:</strong> Prevent downtime and save money.</li>
-    </ul>
-  </section>
+        <div class="section">
+            <h3 id="pricing-and-value">💰 Affordable & Hassle-Free</h3>
+            <ul class="feature-list">
+                <li>
+                    <strong>Peace of Mind:</strong> Professional, worry-free management at a fraction of IT staff cost.
+                </li>
+                <li>
+                    <strong>Maximize Productivity:</strong> Prevent downtime and save money.
+                </li>
+            </ul>
+            <div class="pricing-callout">
+                Transparent Pricing:
+                <span>Just **66¢ per device per day.**</span>
+            </div>
+        </div>
 
-  <section class="contact">
-    <h2>📞 Contact MaxPC Today!</h2>
-    <p><strong>Ready to simplify your device management?</strong></p>
-    <p><strong>Phone:</strong> (864) 477-7828</p>
-    <p><strong>Email:</strong> <a href="mailto:info@max-pc.net">info@max-pc.net</a></p>
-    <p><strong>Support Sessions:</strong> <a href="http://support.max-pc.net">support.max-pc.net</a></p>
-    <p><em>Scan QR code (not displayed here) for quick access.</em></p>
-  </section>
+        <div class="contact">
+            <h3>📞 Contact MaxPC Today!</h3>
+            <p>Ready to simplify your device management and boost security?</p>
+            
+            <a href="tel:8644777828" class="contact-item phone">
+                Call Us Now: **(864) 477-7828**
+            </a>
+            <a href="mailto:info@max-pc.net" class="contact-item">
+                Email: **info@max-pc.net**
+            </a>
+            <a href="http://support.max-pc.net" target="_blank" class="contact-item">
+                Client Portal: **support.max-pc.net**
+            </a>
+        </div>
+    </div>
 
 </body>
 </html>
