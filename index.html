@@ -29,9 +29,21 @@
         .hero {
             background-color: #007bff; /* Primary MaxPC Blue */
             color: white;
-            padding: 30px 0;
+            padding: 20px 0 30px 0; /* Adjusted top padding to make room for logo */
             text-align: center;
             margin-bottom: 20px;
+        }
+
+        /* LOGO STYLES ADDED HERE */
+        .logo-container {
+            padding: 0 0 15px 0; /* Separates logo from text */
+        }
+
+        .logo-container img {
+            max-width: 150px; /* Controls the size of the logo */
+            height: auto;
+            border-radius: 5px; /* Slight rounding for visual appeal */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         .hero h1 {
@@ -136,8 +148,11 @@
 <body>
 
     <div class="hero">
+        <div class="logo-container">
+            <img src="MaxPCLogo.jpg" alt="MaxPC Company Logo">
+        </div>
         <h1>Tired of Computer Issues?</h1>
-        <h2>Simplify Your IT Management with MaxPC.</h2>
+        <h2>Simplify Your IT Management with **MaxPC.**</h2>
     </div>
 
     <div class="container">
@@ -208,7 +223,7 @@
             </ul>
             <div class="pricing-callout">
                 Transparent Pricing:
-                <span>Just 66¢ per device per day.</span>
+                <span>Just **66¢ per device per day.**</span>
             </div>
         </div>
 
@@ -217,13 +232,13 @@
             <p>Ready to simplify your device management and boost security?</p>
             
             <a href="tel:8644777828" class="contact-item phone">
-                Call Us Now: (864) 477-7828
+                Call Us Now: **(864) 477-7828**
             </a>
             <a href="mailto:info@max-pc.net" class="contact-item">
-                Email: info@max-pc.net
+                Email: **info@max-pc.net**
             </a>
             <a href="http://support.max-pc.net" target="_blank" class="contact-item">
-                Client Portal: support.max-pc.net
+                Client Portal: **support.max-pc.net**
             </a>
         </div>
     </div>
